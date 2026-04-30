@@ -8,7 +8,7 @@ const team = [
   {
     name: 'Yashit Sati',
     role: 'Founder & CEO',
-    image: '/team-yashit.jpg',
+    image: '/team-priya.jpg',
     bio: 'With over 15 years in HR and staffing, Yashit founded Clann Staffing with a vision to transform how India hires. His leadership has driven the company from inception to industry recognition.',
   },
   {
