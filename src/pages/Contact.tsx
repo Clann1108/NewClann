@@ -155,10 +155,10 @@ export default function Contact() {
                       <div>
                         <p className="font-semibold text-navy-800">Email Us</p>
                         <a href="mailto:info@clannstaffing.com" className="text-sm text-navy-500 mt-1 hover:text-amber transition-colors block">
-                          info@clannstaffing.com
+                          hr@clannstaffing.com
                         </a>
                         <a href="mailto:careers@clannstaffing.com" className="text-sm text-navy-500 hover:text-amber transition-colors block">
-                          careers@clannstaffing.com
+                          sales@clannstaffing.com
                         </a>
                       </div>
                     </div>
@@ -171,11 +171,11 @@ export default function Contact() {
                       </div>
                       <div>
                         <p className="font-semibold text-navy-800">Call Us</p>
-                        <a href="tel:+918012345678" className="text-sm text-navy-500 mt-1 hover:text-amber transition-colors block">
-                          +91 80 1234 5678
+                        <a href="tel:+918476092027" className="text-sm text-navy-500 mt-1 hover:text-amber transition-colors block">
+                          +91 84 7609 2027
                         </a>
-                        <a href="tel:+918087654321" className="text-sm text-navy-500 hover:text-amber transition-colors block">
-                          +91 80 8765 4321
+                        <a href="tel:+919839440774" className="text-sm text-navy-500 hover:text-amber transition-colors block">
+                          +91 98 3944 0774
                         </a>
                       </div>
                     </div>
@@ -190,7 +190,6 @@ export default function Contact() {
                         <p className="font-semibold text-navy-800">Working Hours</p>
                         <p className="text-sm text-navy-500 mt-1">
                           Monday - Friday: 9:00 AM - 6:00 PM<br />
-                          Saturday: 10:00 AM - 2:00 PM
                         </p>
                       </div>
                     </div>
@@ -202,11 +201,11 @@ export default function Contact() {
                       Schedule a 15-minute discovery call with one of our staffing specialists. No obligations, just insights.
                     </p>
                     <a
-                      href="tel:+918012345678"
+                      href="tel:+918476092027"
                       className="inline-flex items-center gap-2 text-amber font-medium hover:underline"
                     >
                       <Phone size={16} />
-                      Call +91 80 1234 5678
+                      Call +91 98 3944 0774
                     </a>
                   </div>
                 </div>

@@ -6,16 +6,16 @@ import AnimatedSection from '../components/AnimatedSection';
 
 const team = [
   {
-    name: 'Priya Reddy',
+    name: 'Yashit Sati',
     role: 'Founder & CEO',
-    image: '/team-priya.jpg',
-    bio: 'With over 15 years in HR and staffing, Priya founded Clann Staffing with a vision to transform how India hires. Her leadership has driven the company from inception to industry recognition.',
+    image: '/team-yashit.jpg',
+    bio: 'With over 15 years in HR and staffing, Yashit founded Clann Staffing with a vision to transform how India hires. His leadership has driven the company from inception to industry recognition.',
   },
   {
-    name: 'Vikram Sharma',
+    name: 'Ruchi',
     role: 'Co-Founder & COO',
-    image: '/team-vikram.jpg',
-    bio: 'Vikram brings operational excellence and strategic vision to Clann. His expertise in scaling businesses ensures we deliver consistent quality across all our operations.',
+    image: '/team-Ruchi.jpg',
+    bio: 'Ruchi brings operational excellence and strategic vision to Clann. Her expertise in scaling businesses ensures we deliver consistent quality across all our operations.',
   },
   {
     name: 'Arjun Mehta',
