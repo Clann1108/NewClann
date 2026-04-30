@@ -72,7 +72,7 @@ export default function Contact() {
                           <input
                             type="email"
                             required
-                            placeholder="john@example.com"
+                            placeholder="divu@example.com"
                             className="w-full px-4 py-3 rounded-lg border border-cream-200 text-navy-800 placeholder-navy-400 focus:outline-none focus:ring-2 focus:ring-amber"
                           />
                         </div>
@@ -80,7 +80,7 @@ export default function Contact() {
                           <label className="block text-sm font-medium text-navy-700 mb-1">Phone Number</label>
                           <input
                             type="tel"
-                            placeholder="+91 98765 43210"
+                            placeholder="+91 983944 0774"
                             className="w-full px-4 py-3 rounded-lg border border-cream-200 text-navy-800 placeholder-navy-400 focus:outline-none focus:ring-2 focus:ring-amber"
                           />
                         </div>
@@ -154,10 +154,10 @@ export default function Contact() {
                       </div>
                       <div>
                         <p className="font-semibold text-navy-800">Email Us</p>
-                        <a href="mailto:info@clannstaffing.com" className="text-sm text-navy-500 mt-1 hover:text-amber transition-colors block">
+                        <a href="mailto:hr@clannstaffing.com" className="text-sm text-navy-500 mt-1 hover:text-amber transition-colors block">
                           hr@clannstaffing.com
                         </a>
-                        <a href="mailto:careers@clannstaffing.com" className="text-sm text-navy-500 hover:text-amber transition-colors block">
+                        <a href="mailto:sales@clannstaffing.com" className="text-sm text-navy-500 hover:text-amber transition-colors block">
                           sales@clannstaffing.com
                         </a>
                       </div>
