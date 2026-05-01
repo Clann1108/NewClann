@@ -12,10 +12,10 @@ const team = [
     bio: 'With over 15 years in HR and staffing, Yashit founded Clann Staffing with a vision to transform how India hires. His leadership has driven the company from inception to industry recognition.',
   },
   {
-    name: 'Ruchi',
+    name: 'Nishi Ajhuja',
     role: 'Co-Founder & COO',
-    image: '/team-Ruchi.jpg',
-    bio: 'Ruchi brings operational excellence and strategic vision to Clann. Her expertise in scaling businesses ensures we deliver consistent quality across all our operations.',
+    image: '/team-Nishi.jpg',
+    bio: 'Nishi brings operational excellence and strategic vision to Clann. Her expertise in scaling businesses ensures we deliver consistent quality across all our operations.',
   },
   {
     name: 'Arjun Mehta',

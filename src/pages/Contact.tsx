@@ -52,7 +52,7 @@ export default function Contact() {
                           <input
                             type="text"
                             required
-                            placeholder="John"
+                            placeholder="Divu"
                             className="w-full px-4 py-3 rounded-lg border border-cream-200 text-navy-800 placeholder-navy-400 focus:outline-none focus:ring-2 focus:ring-amber"
                           />
                         </div>
@@ -205,7 +205,7 @@ export default function Contact() {
                       className="inline-flex items-center gap-2 text-amber font-medium hover:underline"
                     >
                       <Phone size={16} />
-                      Call +91 98 3944 0774
+                      Call +91 84 7609 2027
                     </a>
                   </div>
                 </div>

@@ -54,11 +54,11 @@ export default function Footer() {
               <div>
                 <p className="font-medium text-sm">Email Us</p>
                 <a href="mailto:info@clannstaffing.com" className="text-sm text-navy-200 mt-1 hover:text-amber transition-colors">
-                  info@clannstaffing.com
+                  hr@clannstaffing.com
                 </a>
                 <br />
                 <a href="mailto:careers@clannstaffing.com" className="text-sm text-navy-200 hover:text-amber transition-colors">
-                  careers@clannstaffing.com
+                  sales@clannstaffing.com
                 </a>
               </div>
             </div>
@@ -68,12 +68,12 @@ export default function Footer() {
               </div>
               <div>
                 <p className="font-medium text-sm">Call Us</p>
-                <a href="tel:+918012345678" className="text-sm text-navy-200 mt-1 hover:text-amber transition-colors">
-                  +91 80 1234 5678
+                <a href="tel:+918476092027" className="text-sm text-navy-200 mt-1 hover:text-amber transition-colors">
+                  +91 84 7609 2027
                 </a>
                 <br />
-                <a href="tel:+918087654321" className="text-sm text-navy-200 hover:text-amber transition-colors">
-                  +91 80 8765 4321
+                <a href="tel:+919839440774" className="text-sm text-navy-200 hover:text-amber transition-colors">
+                  +91 98 3944 0774
                 </a>
               </div>
             </div>
@@ -85,7 +85,6 @@ export default function Footer() {
                 <p className="font-medium text-sm">Working Hours</p>
                 <p className="text-sm text-navy-200 mt-1">
                   Mon - Fri: 9:00 AM - 6:00 PM<br />
-                  Saturday: 10:00 AM - 2:00 PM
                 </p>
               </div>
             </div>
