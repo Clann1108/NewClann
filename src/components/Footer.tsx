@@ -104,9 +104,14 @@ export default function Footer() {
               India's premier staffing and recruitment partner, connecting exceptional talent with forward-thinking organizations since 2026. Your success is our mission.
             </p>
             <div className="flex items-center gap-3 mt-6">
-              <a href="#" className="p-2 bg-navy-800 rounded-lg hover:bg-amber transition-colors">
-                <Linkedin size={18} />
-              </a>
+            <a 
+              href="https://www.linkedin.com/company/clann-staffing/" 
+              className="p-2 bg-navy-800 rounded-lg hover:bg-amber transit..."
+              target="_blank"
+              rel="noopener noreferrer"
+              >
+              <Linkedin size={18} />
+</a>
               <a href="#" className="p-2 bg-navy-800 rounded-lg hover:bg-amber transition-colors">
                 <Facebook size={18} />
               </a>
