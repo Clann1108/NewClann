@@ -14,7 +14,7 @@ const team = [
   {
     name: 'Nishi Ajhuja',
     role: 'Co-Founder & COO',
-    image: '/team-Nishi.jpg',
+    image: '/team-nishi.jpg',
     bio: 'Nishi brings operational excellence and strategic vision to Clann. Her expertise in scaling businesses ensures we deliver consistent quality across all our operations.',
   },
   {
@@ -24,10 +24,10 @@ const team = [
     bio: 'Arjun leads our IT and technology recruitment practice. With deep connections in the tech ecosystem, he has placed hundreds of engineers, product managers, and tech leaders.',
   },
   {
-    name: 'Neha Gupta',
+    name: 'Divyanshu',
     role: 'Director - HR Consulting',
-    image: '/team-neha.jpg',
-    bio: 'Neha heads our talent consulting and compliance division. Her expertise in labor law and HR strategy helps clients build sustainable workforce practices.',
+    image: '/team-divyanshu.jpg',
+    bio: 'Divyanshu heads our talent consulting and compliance division. His expertise in labor law and HR strategy helps clients build sustainable workforce practices.',
   },
 ];
 
