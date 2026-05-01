@@ -39,13 +39,15 @@ export default function Navbar() {
         scrolled ? 'bg-cream-100/95 shadow-soft backdrop-blur-sm' : 'bg-cream-100'
       }`}
     >
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Logo centered */}
-        <div className="flex justify-center pt-4 pb-2">
-          <Link to="/" className="flex items-center gap-3">
-            <img src="/logo.png" alt="Clann Staffing" className="h-40 w-auto object-contain" />
-          </Link>
-        </div>
+      <div className="relative flex justify-center pt-4 pb-2">
+  <Link to="/" className="flex items-center gap-3">
+    <img 
+      src="/logo.png" 
+      alt="Clann Staffing" 
+      className="h-40 w-auto object-contain absolute -top-4 left-1/2 -translate-x-1/2" 
+    />
+  </Link>
+</div>
 
         {/* Desktop Navigation */}
         <nav className="hidden lg:flex items-center justify-center gap-1 pb-3">
