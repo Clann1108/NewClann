@@ -43,7 +43,7 @@ export default function Navbar() {
         {/* Logo centered */}
         <div className="flex justify-center pt-4 pb-2">
           <Link to="/" className="flex items-center gap-3">
-            <img src="/logo.png" alt="Clann Staffing" className="h-16 w-auto object-contain" />
+            <img src="/logo.png" alt="Clann Staffing" className="h-24 w-auto object-contain" />
           </Link>
         </div>
 
