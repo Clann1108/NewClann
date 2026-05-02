@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Link, useLocation } from 'react-router';
+import { Menu, X, Upload, Phone } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const navLinks = [
@@ -20,7 +20,6 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);
-    handleScroll();
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -36,104 +35,49 @@ export default function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-all duration-500 ${
-        scrolled
-          ? 'bg-cream-100/95 shadow-md backdrop-blur-sm'
-          : 'bg-cream-100'
+      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
+        scrolled ? 'bg-cream-100/95 shadow-soft backdrop-blur-sm' : 'bg-cream-100'
       }`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* DEFAULT STATE: Large centered logo + desktop nav */}
-        <div
-          className={`transition-all duration-500 ease-in-out ${
-            scrolled
-              ? 'max-h-0 opacity-0 overflow-hidden'
-              : 'max-h-[400px] opacity-100 py-6 sm:py-8 lg:py-10'
-          }`}
-        >
-          <div className="flex flex-col items-center relative">
-            {/* Mobile menu button — top right */}
-            <div className="lg:hidden absolute right-0 top-0">
-              <button
-                onClick={() => setIsOpen(!isOpen)}
-                className="p-2 text-navy-800 hover:text-amber transition-colors"
-                aria-label="Toggle menu"
-              >
-                {isOpen ? <X size={24} /> : <Menu size={24} />}
-              </button>
-            </div>
-
-            <Link to="/" className="mb-3 lg:mb-5">
-              <img
-                src="/logo.png"
-                alt="Clann Staffing"
-                className="h-28 sm:h-36 lg:h-44 w-auto object-contain"
-              />
-            </Link>
-
-            <nav className="hidden lg:flex items-center gap-1">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  to={link.href}
-                  className={`px-4 py-2 text-sm font-sans font-medium tracking-wide transition-colors duration-200 ${
-                    isActive(link.href)
-                      ? 'text-amber'
-                      : 'text-navy-800 hover:text-amber'
-                  }`}
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </nav>
-          </div>
+        {/* Logo centered */}
+        <div className="flex justify-center pt-4 pb-2">
+          <Link to="/" className="flex items-center gap-3">
+            <img src="/logo.png" alt="Clann Staffing" className="h-40 w-auto object-contain" />
+          </Link>
         </div>
 
-        {/* SCROLLED STATE: Compact bar */}
-        <div
-          className={`transition-all duration-500 ease-in-out ${
-            scrolled
-              ? 'max-h-[80px] opacity-100 py-3'
-              : 'max-h-0 opacity-0 overflow-hidden'
-          }`}
-        >
-          <div className="flex items-center justify-between">
-            <Link to="/" className="shrink-0">
-              <img
-                src="/logo.png"
-                alt="Clann Staffing"
-                className="h-10 sm:h-12 w-auto object-contain"
-              />
-            </Link>
-
-            <nav className="hidden lg:flex items-center gap-1">
-              {navLinks.map((link) => (
-                <Link
-                  key={link.href}
-                  to={link.href}
-                  className={`px-4 py-2 text-sm font-sans font-medium tracking-wide transition-colors duration-200 ${
-                    isActive(link.href)
-                      ? 'text-amber'
-                      : 'text-navy-800 hover:text-amber'
-                  }`}
-                >
-                  {link.label}
-                </Link>
-              ))}
-            </nav>
-
-            <button
-              onClick={() => setIsOpen(!isOpen)}
-              className="lg:hidden p-2 text-navy-800 hover:text-amber transition-colors"
-              aria-label="Toggle menu"
+        {/* Desktop Navigation */}
+        <nav className="hidden lg:flex items-center justify-center gap-1 pb-3">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              to={link.href}
+              className={`px-4 py-2 text-sm font-sans font-medium tracking-wide transition-colors duration-200 ${
+                isActive(link.href)
+                  ? 'text-amber'
+                  : 'text-navy-800 hover:text-amber'
+              }`}
             >
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
-          </div>
+              {link.label}
+            </Link>
+          ))}
+        </nav>
+
+        {/* Mobile menu button */}
+        <div className="lg:hidden flex items-center justify-between pb-3">
+          <span className="text-sm font-sans text-navy-700">Menu</span>
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="p-2 text-navy-800 hover:text-amber transition-colors"
+            aria-label="Toggle menu"
+          >
+            {isOpen ? <X size={24} /> : <Menu size={24} />}
+          </button>
         </div>
       </div>
 
-      {/* Mobile Navigation Dropdown */}
+      {/* Mobile Navigation */}
       <AnimatePresence>
         {isOpen && (
           <motion.div
@@ -143,7 +87,7 @@ export default function Navbar() {
             transition={{ duration: 0.3 }}
             className="lg:hidden bg-cream-100 border-t border-cream-200 overflow-hidden"
           >
-            <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-4 space-y-1">
+            <div className="mx-auto max-w-7xl px-4 py-4 space-y-1">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
@@ -157,10 +101,46 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
+              <div className="pt-3 flex flex-col gap-2">
+                <Link
+                  to="/upload-resume"
+                  className="flex items-center justify-center gap-2 px-4 py-3 bg-navy-800 text-white rounded-md text-sm font-medium hover:bg-navy-900 transition-colors"
+                >
+                  <Upload size={16} />
+                  Upload Resume
+                </Link>
+                <Link
+                  to="/contact-us"
+                  className="flex items-center justify-center gap-2 px-4 py-3 bg-amber text-white rounded-md text-sm font-medium hover:bg-amber-dark transition-colors"
+                >
+                  <Phone size={16} />
+                  Get In Touch
+                </Link>
+              </div>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* CTA Buttons row (desktop) */}
+      <div className="hidden lg:block border-t border-cream-200">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-2 flex justify-end gap-3">
+          <Link
+            to="/upload-resume"
+            className="inline-flex items-center gap-2 px-5 py-2 bg-navy-800 text-white rounded-pill text-sm font-medium hover:bg-navy-900 transition-all hover:shadow-soft"
+          >
+            <Upload size={16} />
+            Upload Resume
+          </Link>
+          <Link
+            to="/contact-us"
+            className="inline-flex items-center gap-2 px-5 py-2 bg-amber text-white rounded-pill text-sm font-medium hover:bg-amber-dark transition-all hover:shadow-soft"
+          >
+            <Phone size={16} />
+            Get In Touch
+          </Link>
+        </div>
+      </div>
     </header>
   );
 }
