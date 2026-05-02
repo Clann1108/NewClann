@@ -170,7 +170,7 @@ export default function Footer() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-navy-300 text-center md:text-left">
-              © 2026 Clann Staffing. All Rights Reserved. (A convergence consulting pvt ltd company)
+              © 2026 Clann Staffing. All Rights Reserved. (A Convergence Consulting Co.)
             </p>
             <div className="flex items-center gap-6">
               <Link to="/privacy-policy" className="text-sm text-navy-300 hover:text-amber transition-colors">

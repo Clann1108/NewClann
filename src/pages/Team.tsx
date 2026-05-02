@@ -10,24 +10,32 @@ const team = [
     role: 'Founder & CEO',
     image: '/team-priya.jpg',
     bio: 'With over 15 years in HR and staffing, Yashit founded Clann Staffing with a vision to transform how India hires. His leadership has driven the company from inception to industry recognition.',
+    email: 'yashit@clannstaffing.com',
+    linkedin: 'https://www.linkedin.com/in/yashit-sati-331549116/',
   },
   {
-    name: 'Nishi Ajhuja',
+    name: 'Nishi Ahuja',
     role: 'Co-Founder & COO',
-    image: '/team-nishi.jpg',
+    image: '/team-nishi.png',
     bio: 'Nishi brings operational excellence and strategic vision to Clann. Her expertise in scaling businesses ensures we deliver consistent quality across all our operations.',
+    email: 'nishi@clannstaffing.com',
+    linkedin: 'https://www.linkedin.com/in/nishiajhuja/',
   },
   {
     name: 'Arjun Mehta',
     role: 'Director - Technology Hiring',
     image: '/team-arjun.jpg',
     bio: 'Arjun leads our IT and technology recruitment practice. With deep connections in the tech ecosystem, he has placed hundreds of engineers, product managers, and tech leaders.',
+    email: 'arjun@clannstaffing.com',
+    linkedin: 'https://www.linkedin.com/in/arjunmehta/',
   },
   {
     name: 'Divyanshu',
     role: 'Director - HR Consulting',
-    image: '/team-divyanshu.jpg',
+    image: '/team-divyanshu.png',
     bio: 'Divyanshu heads our talent consulting and compliance division. His expertise in labor law and HR strategy helps clients build sustainable workforce practices.',
+    email: 'divyanshu@clannstaffing.com',
+    linkedin: 'https://www.linkedin.com/in/divyanshu/',
   },
 ];
 
@@ -73,12 +81,20 @@ export default function Team() {
                       <p className="text-amber font-sans text-sm font-medium mt-1">{member.role}</p>
                       <p className="text-sm text-navy-500 mt-3 leading-relaxed">{member.bio}</p>
                       <div className="flex items-center gap-3 mt-4">
-                        <button className="p-2 bg-cream-100 rounded-lg hover:bg-amber/20 transition-colors">
+                        <a
+                          href={member.linkedin}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="p-2 bg-cream-100 rounded-lg hover:bg-amber/20 transition-colors"
+                        >
                           <Linkedin size={16} className="text-navy-600" />
-                        </button>
-                        <button className="p-2 bg-cream-100 rounded-lg hover:bg-amber/20 transition-colors">
+                        </a>
+                        <a
+                          href={`mailto:${member.email}`}
+                          className="p-2 bg-cream-100 rounded-lg hover:bg-amber/20 transition-colors"
+                        >
                           <Mail size={16} className="text-navy-600" />
-                        </button>
+                        </a>
                       </div>
                     </div>
                   </div>

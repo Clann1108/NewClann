@@ -61,7 +61,7 @@ export default function About() {
                   Founded in 2026, Clann Staffing was born from a simple observation: the Indian staffing market needed a partner who truly cared about both sides of the hiring equation. We saw companies struggling to find quality talent, and talented professionals unable to find the right opportunities.
                 </p>
                 <p className="text-navy-500 leading-relaxed mb-4">
-                  We decided to be that bridge. Not just another staffing agency, but a true partner in growth — for organizations and individuals alike. The name "Clann" (derived from the Gaelic word for family/tribe) reflects our belief that every successful placement creates a new connection, a new relationship, a new member of our extended family.
+                  We decided to be that bridge. Not just another staffing agency, but a true partner in growth - for organizations and individuals alike. The name "Clann" (derived from the Gaelic word for family/tribe) reflects our belief that every successful placement creates a new connection, a new relationship, a new member of our extended family.
                 </p>
                 <p className="text-navy-500 leading-relaxed">
                   Today, with 50,000+ active resumes, 1,000+ successful placements, and a 98% client retention rate, we're proud to be India's premier staffing partner. But we're just getting started.
@@ -102,7 +102,7 @@ export default function About() {
                 What We Stand For
               </h2>
               <p className="mt-4 text-navy-500 max-w-2xl mx-auto">
-                Our values aren't just words on a wall — they guide every decision we make, every placement we do.
+                Our values aren't just words on a wall - they guide every decision we make, every placement we do.
               </p>
             </div>
           </AnimatedSection>
