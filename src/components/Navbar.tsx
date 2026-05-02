@@ -19,7 +19,9 @@ export default function Navbar() {
   const location = useLocation();
 
   useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 50);
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -35,20 +37,36 @@ export default function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
-        scrolled ? 'bg-cream-100/95 shadow-soft backdrop-blur-sm' : 'bg-cream-100'
+      className={`sticky top-0 z-50 w-full transition-all duration-400 ${
+        scrolled
+          ? 'bg-cream-100/95 shadow-nav backdrop-blur-sm'
+          : 'bg-cream-100'
       }`}
     >
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        {/* Logo centered */}
-        <div className="flex justify-center pt-4 pb-2">
+        {/* Logo centered — shrinks from h-40 to h-20 */}
+        <div
+          className={`flex justify-center transition-all duration-400 ${
+            scrolled ? 'pt-2 pb-1' : 'pt-4 pb-2'
+          }`}
+        >
           <Link to="/" className="flex items-center gap-3">
-            <img src="/logo.png" alt="Clann Staffing" className="h-40 w-auto object-contain" />
+            <img
+              src="/logo.png"
+              alt="Clann Staffing"
+              className={`w-auto object-contain transition-all duration-400 ${
+                scrolled ? 'h-20' : 'h-40'
+              }`}
+            />
           </Link>
         </div>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden lg:flex items-center justify-center gap-1 pb-3">
+        {/* Desktop Navigation — reduced padding when scrolled */}
+        <nav
+          className={`hidden lg:flex items-center justify-center gap-1 transition-all duration-400 ${
+            scrolled ? 'pb-2' : 'pb-3'
+          }`}
+        >
           {navLinks.map((link) => (
             <Link
               key={link.href}
@@ -65,8 +83,11 @@ export default function Navbar() {
         </nav>
 
         {/* Mobile menu button */}
-        <div className="lg:hidden flex items-center justify-between pb-3">
-          <span className="text-sm font-sans text-navy-700">Menu</span>
+        <div
+          className={`lg:hidden flex items-center justify-between transition-all duration-400 ${
+            scrolled ? 'pb-2' : 'pb-3'
+          }`}
+        >
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="p-2 text-navy-800 hover:text-amber transition-colors"

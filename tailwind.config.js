@@ -89,6 +89,7 @@ module.exports = {
         xs: "0 1px 2px 0 rgb(0 0 0 / 0.05)",
         soft: "0 4px 20px rgba(0, 0, 0, 0.08)",
         elevated: "0 8px 30px rgba(0, 0, 0, 0.12)",
+        nav: "0 2px 15px rgba(0, 0, 0, 0.06)",
       },
       keyframes: {
         "accordion-down": {
@@ -115,6 +116,10 @@ module.exports = {
           "0%": { opacity: "0", transform: "translateX(-20px)" },
           "100%": { opacity: "1", transform: "translateX(0)" },
         },
+        "shrink-in": {
+          "0%": { transform: "scaleY(1)" },
+          "100%": { transform: "scaleY(1)" },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -123,6 +128,9 @@ module.exports = {
         "fade-in-up": "fade-in-up 0.6s ease-out forwards",
         "fade-in": "fade-in 0.4s ease-out forwards",
         "slide-in-left": "slide-in-left 0.5s ease-out forwards",
+      },
+      transitionDuration: {
+        '400': '400ms',
       },
     },
   },
