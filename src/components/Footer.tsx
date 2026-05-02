@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { MapPin, Mail, Phone, Clock, Linkedin, Facebook, Twitter } from 'lucide-react';
+import { MapPin, Mail, Phone, Clock, Linkedin, Facebook, Twitter, Instagram } from 'lucide-react';
 
 const footerLinks = {
   services: [
@@ -104,19 +104,37 @@ export default function Footer() {
               India's premier staffing and recruitment partner, connecting exceptional talent with forward-thinking organizations since 2026. Your success is our mission.
             </p>
             <div className="flex items-center gap-3 mt-6">
-            <a 
-              href="https://www.linkedin.com/company/clann-staffing/" 
-              className="p-2 bg-navy-800 rounded-lg hover:bg-amber transit..."
-              target="_blank"
-              rel="noopener noreferrer"
+              <a 
+                href="https://www.linkedin.com/company/clann-staffing/" 
+                className="p-2 bg-navy-800 rounded-lg hover:bg-amber transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-              <Linkedin size={18} />
-</a>
-              <a href="https://www.linkedin.com/company/clann-staffing/" className="p-2 bg-navy-800 rounded-lg hover:bg-amber transition-colors">
+                <Linkedin size={18} />
+              </a>
+              <a 
+                href="https://www.linkedin.com/company/clann-staffing/" 
+                className="p-2 bg-navy-800 rounded-lg hover:bg-amber transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Facebook size={18} />
               </a>
-              <a href="https://www.linkedin.com/company/clann-staffing/" className="p-2 bg-navy-800 rounded-lg hover:bg-amber transition-colors">
+              <a 
+                href="https://www.linkedin.com/company/clann-staffing/" 
+                className="p-2 bg-navy-800 rounded-lg hover:bg-amber transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <Twitter size={18} />
+              </a>
+              <a 
+                href="https://www.instagram.com/clannstaffing/" 
+                className="p-2 bg-navy-800 rounded-lg hover:bg-amber transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Instagram size={18} />
               </a>
             </div>
           </div>
