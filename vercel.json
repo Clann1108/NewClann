@@ -1,15 +1,6 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/about-us", "destination": "/index.html" },
-    { "source": "/services", "destination": "/index.html" },
-    { "source": "/industries", "destination": "/index.html" },
-    { "source": "/jobs", "destination": "/index.html" },
-    { "source": "/team", "destination": "/index.html" },
-    { "source": "/contact-us", "destination": "/index.html" },
-    { "source": "/upload-resume", "destination": "/index.html" },
-    { "source": "/testimonials", "destination": "/index.html" },
-    { "source": "/privacy-policy", "destination": "/index.html" },
-    { "source": "/terms-of-service", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
