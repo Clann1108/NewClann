@@ -19,7 +19,7 @@ const team = [
     image: '/team-nishi.png',
     bio: 'Nishi brings operational excellence and strategic vision to Clann. Her expertise in scaling businesses ensures we deliver consistent quality across all our operations.',
     email: 'nishi@clannstaffing.com',
-    linkedin: 'https://www.linkedin.com/in/nishiajhuja/',
+    linkedin: 'https://www.linkedin.com/in/#/',
   },
   {
     name: 'Arjun Mehta',
@@ -27,7 +27,7 @@ const team = [
     image: '/team-arjun.jpg',
     bio: 'Arjun leads our IT and technology recruitment practice. With deep connections in the tech ecosystem, he has placed hundreds of engineers, product managers, and tech leaders.',
     email: 'arjun@clannstaffing.com',
-    linkedin: 'https://www.linkedin.com/in/arjunmehta/',
+    linkedin: 'https://www.linkedin.com/in/#/',
   },
   {
     name: 'Divyanshu',
@@ -35,7 +35,7 @@ const team = [
     image: '/team-divyanshu.png',
     bio: 'Divyanshu heads our talent consulting and compliance division. His expertise in labor law and HR strategy helps clients build sustainable workforce practices.',
     email: 'divyanshu@clannstaffing.com',
-    linkedin: 'https://www.linkedin.com/in/divyanshu/',
+    linkedin: 'https://www.linkedin.com/in/#/',
   },
 ];
 
