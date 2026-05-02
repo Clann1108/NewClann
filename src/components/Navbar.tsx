@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router';
-import { Menu, X, Upload, Phone } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const navLinks = [
@@ -101,46 +101,10 @@ export default function Navbar() {
                   {link.label}
                 </Link>
               ))}
-              <div className="pt-3 flex flex-col gap-2">
-                <Link
-                  to="/upload-resume"
-                  className="flex items-center justify-center gap-2 px-4 py-3 bg-navy-800 text-white rounded-md text-sm font-medium hover:bg-navy-900 transition-colors"
-                >
-                  <Upload size={16} />
-                  Upload Resume
-                </Link>
-                <Link
-                  to="/contact-us"
-                  className="flex items-center justify-center gap-2 px-4 py-3 bg-amber text-white rounded-md text-sm font-medium hover:bg-amber-dark transition-colors"
-                >
-                  <Phone size={16} />
-                  Get In Touch
-                </Link>
-              </div>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
-
-      {/* CTA Buttons row (desktop) */}
-      <div className="hidden lg:block border-t border-cream-200">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-2 flex justify-end gap-3">
-          <Link
-            to="/upload-resume"
-            className="inline-flex items-center gap-2 px-5 py-2 bg-navy-800 text-white rounded-pill text-sm font-medium hover:bg-navy-900 transition-all hover:shadow-soft"
-          >
-            <Upload size={16} />
-            Upload Resume
-          </Link>
-          <Link
-            to="/contact-us"
-            className="inline-flex items-center gap-2 px-5 py-2 bg-amber text-white rounded-pill text-sm font-medium hover:bg-amber-dark transition-all hover:shadow-soft"
-          >
-            <Phone size={16} />
-            Get In Touch
-          </Link>
-        </div>
-      </div>
     </header>
   );
 }
