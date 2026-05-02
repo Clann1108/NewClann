@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "ignoreDeprecations": "6.0",
+    // Remove this entirely:
+    // "ignoreDeprecations": "6.0",
+    
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
     "target": "ES2022",
     "useDefineForClassFields": true,
