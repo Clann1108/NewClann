@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { ArrowRight, Star, Quote } from 'lucide-react';
 import HeroSection from '../components/HeroSection';
 import WaveDivider from '../components/WaveDivider';

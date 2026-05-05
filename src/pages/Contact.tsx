@@ -61,7 +61,7 @@ export default function Contact() {
                           <input
                             type="text"
                             required
-                            placeholder="Doe"
+                            placeholder="Sri"
                             className="w-full px-4 py-3 rounded-lg border border-cream-200 text-navy-800 placeholder-navy-400 focus:outline-none focus:ring-2 focus:ring-amber"
                           />
                         </div>
@@ -72,7 +72,7 @@ export default function Contact() {
                           <input
                             type="email"
                             required
-                            placeholder="divu@example.com"
+                            placeholder="Divu@example.com"
                             className="w-full px-4 py-3 rounded-lg border border-cream-200 text-navy-800 placeholder-navy-400 focus:outline-none focus:ring-2 focus:ring-amber"
                           />
                         </div>
@@ -80,7 +80,7 @@ export default function Contact() {
                           <label className="block text-sm font-medium text-navy-700 mb-1">Phone Number</label>
                           <input
                             type="tel"
-                            placeholder="+91 983944 0774"
+                            placeholder="+91 847609 2027"
                             className="w-full px-4 py-3 rounded-lg border border-cream-200 text-navy-800 placeholder-navy-400 focus:outline-none focus:ring-2 focus:ring-amber"
                           />
                         </div>

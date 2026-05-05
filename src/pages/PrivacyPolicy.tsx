@@ -70,9 +70,9 @@ export default function PrivacyPolicy() {
               <section>
                 <h2 className="font-serif text-xl text-navy-800 mb-3">7. Contact Us</h2>
                 <p>If you have any questions about this Privacy Policy, please contact us at:</p>
-                <p className="mt-2">Email: info@clannstaffing.com<br />
+                <p className="mt-2">Email: hr@clannstaffing.com<br />
                 Address: Gulshan Belina, Greater Noida, Uttar Pradesh, India<br />
-                Phone: +91 80 1234 5678</p>
+                Phone: +91 84 7609 2027</p>
               </section>
             </div>
           </div>

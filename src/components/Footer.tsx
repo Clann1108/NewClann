@@ -53,11 +53,11 @@ export default function Footer() {
               </div>
               <div>
                 <p className="font-medium text-sm">Email Us</p>
-                <a href="mailto:info@clannstaffing.com" className="text-sm text-navy-200 mt-1 hover:text-amber transition-colors">
+                <a href="mailto:hr@clannstaffing.com" className="text-sm text-navy-200 mt-1 hover:text-amber transition-colors">
                   hr@clannstaffing.com
                 </a>
                 <br />
-                <a href="mailto:careers@clannstaffing.com" className="text-sm text-navy-200 hover:text-amber transition-colors">
+                <a href="mailto:sales@clannstaffing.com" className="text-sm text-navy-200 hover:text-amber transition-colors">
                   sales@clannstaffing.com
                 </a>
               </div>
@@ -188,7 +188,7 @@ export default function Footer() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-navy-300 text-center md:text-left">
-              © 2026 Clann Staffing. All Rights Reserved. (A Convergence Consulting Co.)
+              © 2026 Clann Staffing (A Convergence Consulting Co.), All Rights Reserved.
             </p>
             <div className="flex items-center gap-6">
               <Link to="/privacy-policy" className="text-sm text-navy-300 hover:text-amber transition-colors">
