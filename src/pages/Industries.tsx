@@ -91,7 +91,7 @@ export default function Industries() {
       <HeroSection
         title="Industries We Serve"
         subtitle="Sectors We Cover"
-        description="Deep domain expertise across diverse industry verticals. We don't just fill roles — we understand the technical skills, regulatory frameworks, and cultural nuances that make each industry unique."
+        description="Deep domain expertise across diverse industry verticals. We don't just fill roles - we understand the technical skills, regulatory frameworks, and cultural nuances that make each industry unique."
         backgroundImage="/hero-industries.jpg"
         primaryButton={{ label: 'DISCUSS YOUR SECTOR', href: '/contact-us' }}
       />
