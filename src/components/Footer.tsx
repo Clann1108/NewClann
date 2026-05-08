@@ -68,8 +68,8 @@ export default function Footer() {
               </div>
               <div>
                 <p className="font-medium text-sm">Call Us</p>
-                <a href="tel:+918476092027" className="text-sm text-navy-200 mt-1 hover:text-amber transition-colors">
-                  +91 84 7609 2027
+                <a href="tel:+918796649501" className="text-sm text-navy-200 mt-1 hover:text-amber transition-colors">
+                  +91 87 9664 9501
                 </a>
                 <br />
                 <a href="tel:+919839440774" className="text-sm text-navy-200 hover:text-amber transition-colors">

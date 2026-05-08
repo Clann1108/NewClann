@@ -80,7 +80,7 @@ export default function Contact() {
                           <label className="block text-sm font-medium text-navy-700 mb-1">Phone Number</label>
                           <input
                             type="tel"
-                            placeholder="+91 847609 2027"
+                            placeholder="+91 879664 9501"
                             className="w-full px-4 py-3 rounded-lg border border-cream-200 text-navy-800 placeholder-navy-400 focus:outline-none focus:ring-2 focus:ring-amber"
                           />
                         </div>
@@ -171,8 +171,8 @@ export default function Contact() {
                       </div>
                       <div>
                         <p className="font-semibold text-navy-800">Call Us</p>
-                        <a href="tel:+918476092027" className="text-sm text-navy-500 mt-1 hover:text-amber transition-colors block">
-                          +91 84 7609 2027
+                        <a href="tel:+918796649501" className="text-sm text-navy-500 mt-1 hover:text-amber transition-colors block">
+                          +91 87 9664 9501
                         </a>
                         <a href="tel:+919839440774" className="text-sm text-navy-500 hover:text-amber transition-colors block">
                           +91 98 3944 0774
@@ -201,11 +201,11 @@ export default function Contact() {
                       Schedule a 15-minute discovery call with one of our staffing specialists. No obligations, just insights.
                     </p>
                     <a
-                      href="tel:+918476092027"
+                      href="tel:+918796649501"
                       className="inline-flex items-center gap-2 text-amber font-medium hover:underline"
                     >
                       <Phone size={16} />
-                      Call +91 84 7609 2027
+                      Call +91 87 9664 9501
                     </a>
                   </div>
                 </div>
