@@ -531,7 +531,7 @@ export default function TestYourself() {
               </div>
               <div className="flex-1 text-center md:text-left">
                 <div className="inline-flex items-center gap-2 px-3 py-1 bg-amber/20 rounded-full mb-3">
-                  <Award size={14} className="text-white" />
+                  <Award size={14} className="text-amber" />
                   <span className="text-amber text-sm font-medium">Assessment Complete</span>
                 </div>
                 <h1 className="font-serif text-3xl md:text-4xl text-white mb-2">{testResult.candidateInfo.fullName}</h1>

@@ -30,8 +30,8 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/#/',
   },
   {
-    name: 'Divyanshu',
-    role: 'Director - HR Consulting',
+    name: 'Satyam Srivastava',
+    role: 'VP-HR',
     image: '/team-divyanshu.png',
     bio: 'Divyanshu heads our talent consulting and compliance division. His expertise in labor law and HR strategy helps clients build sustainable workforce practices.',
     email: 'divyanshu@clannstaffing.com',
