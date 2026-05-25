@@ -49,7 +49,7 @@ export default function Testimonials() {
       <HeroSection
         title="What People Are Saying"
         subtitle="Testimonials"
-        description="The overwhelming amount of positive feedback we receive is a testament to our commitment to excellence. Don't just take our word for it — hear from those we've helped."
+        description="The overwhelming amount of positive feedback we receive is a testament to our commitment to excellence. Don't just take our word for it - hear from those we've helped."
         backgroundImage="/hero-about.jpg"
         primaryButton={{ label: 'SHARE YOUR STORY', href: '/contact-us' }}
       />
