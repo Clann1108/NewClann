@@ -6,7 +6,7 @@ import AnimatedSection from '../components/AnimatedSection';
 
 const team = [
   {
-    name: 'Yashit Sati',
+    name: 'Yash Sati',
     role: 'Founder & CEO',
     image: '/team-yash.png',
     bio: 'With over 15 years in HR and staffing, Yashit founded Clann Staffing with a vision to transform how India hires. His leadership has driven the company from inception to industry recognition.',
@@ -19,22 +19,22 @@ const team = [
     image: '/team-nishi.png',
     bio: 'Nishi brings operational excellence and strategic vision to Clann. Her expertise in scaling businesses ensures we deliver consistent quality across all our operations.',
     email: 'nishi@clannstaffing.com',
-    linkedin: 'https://www.linkedin.com/in/#/',
+    linkedin: 'https://www.linkedin.com/in/nishi-ahuja-7374b2407/',
   },
   {
-    name: 'Arjun Mehta',
-    role: 'Director - Technology Hiring',
-    image: '/team-arjun.jpg',
-    bio: 'Arjun leads our IT and technology recruitment practice. With deep connections in the tech ecosystem, he has placed hundreds of engineers, product managers, and tech leaders.',
-    email: 'arjun@clannstaffing.com',
-    linkedin: 'https://www.linkedin.com/in/#/',
+    name: 'Neha Sharma',
+    role: 'Director - Client Relations',
+    image: '/team-neha.png',
+    bio: 'Neha leads our client relations team. With deep connections in the industry, she has placed hundreds of professionals across various domains.',
+    email: 'neha@clannstaffing.com',
+    linkedin: 'https://www.linkedin.com/in/neha-sharma111/',
   },
   {
     name: 'Satyam Srivastava',
     role: 'VP-HR',
-    image: '/team-divyanshu.png',
-    bio: 'Divyanshu heads our talent consulting and compliance division. His expertise in labor law and HR strategy helps clients build sustainable workforce practices.',
-    email: 'divyanshu@clannstaffing.com',
+    image: '/team-satyam.png',
+    bio: 'Satyam heads our talent consulting and compliance division. His expertise in labor law and HR strategy helps clients build sustainable workforce practices.',
+    email: 'satyam@clannstaffing.com',
     linkedin: 'https://www.linkedin.com/in/#/',
   },
 ];
