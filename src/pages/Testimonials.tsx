@@ -8,7 +8,7 @@ const testimonials = [
   {
     quote: "Working with Clann Staffing ended up being a dream come true. After what felt like endless interviews, final rounds, and rejection letters, I was introduced to the team and they found an opportunity that was the perfect fit. They were very responsive and communicative throughout. I couldn't be happier with the entire experience!",
     author: 'Rahul Mehta',
-    role: 'CTO, TechCorp India',
+    role: 'CTO, QuessCorp India',
     rating: 5,
   },
   {
