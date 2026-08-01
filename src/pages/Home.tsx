@@ -79,8 +79,8 @@ const testimonials = [
 ];
 
 const clients = [
-  'TechCorp India', 'FinServe Global', 'MediCare Plus', 'AutoTech Industries',
-  'BuildConstruct', 'DataSystems', 'GreenEnergy', 'RetailMax', 'EduFirst', 'LogiTrans',
+  'Tectura Infotech', 'Atomic North', 'Avenoir', 'BLB Limited',
+  'Vikrant Industries', 'Neosoft', 'Appcrave', 'HIC', 'Sevenseas Cosmetics', 'Nexon Solution',
 ];
 
 export default function Home() {
