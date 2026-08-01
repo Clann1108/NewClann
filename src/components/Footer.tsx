@@ -42,7 +42,7 @@ export default function Footer() {
               <div>
                 <p className="font-medium text-sm">Head Office</p>
                 <p className="text-sm text-navy-200 mt-1">
-                  Gulshan Belina, Greater Noida<br />
+                  A-406, 4th Floor, Plot No.-3, Anthurium Office Spaces, Sector-73, Noida-201301<br />
                   Uttar Pradesh, India
                 </p>
               </div>
@@ -57,8 +57,8 @@ export default function Footer() {
                   hr@clannstaffing.com
                 </a>
                 <br />
-                <a href="mailto:sales@clannstaffing.com" className="text-sm text-navy-200 hover:text-amber transition-colors">
-                  sales@clannstaffing.com
+                <a href="mailto:ruchi.chaudhary@clannstaffing.com" className="text-sm text-navy-200 hover:text-amber transition-colors">
+                  ruchi.chaudhary@clannstaffing.com
                 </a>
               </div>
             </div>
@@ -84,7 +84,7 @@ export default function Footer() {
               <div>
                 <p className="font-medium text-sm">Working Hours</p>
                 <p className="text-sm text-navy-200 mt-1">
-                  Mon - Fri: 9:00 AM - 6:00 PM<br />
+                  Mon - Fri: 10:00 AM - 7:00 PM<br />
                 </p>
               </div>
             </div>
