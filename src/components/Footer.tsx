@@ -98,7 +98,10 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="Clann Staffing" className="h-50 w-auto object-contain brightness-0 invert" />
+              <img src="/logo.png" alt="Clann Staffing" className="h-30 w-auto object-contain brightness-0 invert" />
+            </Link>
+            <Link to="/" className="flex items-center gap-3 mb-4">
+              <img src="/logo.png" className="h-10 w-auto object-contain brightness-0 invert" />
             </Link>
             <p className="text-sm text-navy-200 leading-relaxed max-w-sm">
               India's premier staffing and recruitment partner, connecting exceptional talent with forward-thinking organizations since 2026. Your success is our mission.
