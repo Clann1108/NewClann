@@ -100,10 +100,6 @@ export default function Footer() {
             <Link to="/" className="flex items-center gap-3 mb-4">
               <img src="/logo.png" alt="Clann Staffing" className="h-50 w-auto object-contain brightness-0 invert" />
             </Link>
-                <Link to="/" className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="Clann Staffing" className="h- w-auto object-contain brightness-0 invert" />
-            <img src="/logo.png" alt="Clann Staffing" className="h-10 w-auto object-contain brightness-0 invert" />
-            </Link>
             <p className="text-sm text-navy-200 leading-relaxed max-w-sm">
               India's premier staffing and recruitment partner, connecting exceptional talent with forward-thinking organizations since 2026. Your success is our mission.
             </p>
@@ -191,10 +187,6 @@ export default function Footer() {
       <div className="border-t border-navy-700">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
-      <Link to="/" className="flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="Clann Staffing" className="h- w-auto object-contain brightness-0 invert" />
-            <img src="/logo.png" alt="Clann Staffing" className="h-10 w-auto object-contain brightness-0 invert" />
-            </Link>
             <p className="text-sm text-navy-300 text-center md:text-left">
               © 2026 Clann Staffing (A Convergence Consulting Co.), All Rights Reserved.
             </p>
