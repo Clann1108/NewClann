@@ -8,7 +8,7 @@ const team = [
   {
     name: 'Yash Sati',
     role: 'Founder & CEO',
-    image: '/team-yash.png',
+    image: '/team-yash.jpg',
     bio: 'With over 15 years in HR and staffing, Yashit founded Clann Staffing with a vision to transform how India hires. His leadership has driven the company from inception to industry recognition.',
     email: 'yashit@clannstaffing.com',
     linkedin: 'https://www.linkedin.com/in/yashit-sati-331549116/',
@@ -24,7 +24,7 @@ const team = [
   {
     name: 'Ruchi Chaudhary',
     role: 'Director - Client Relations',
-    image: '/team-neha.png',
+    image: '/team-ruchi.jpg',
     bio: 'Ruchi leads our client relations team. With deep connections in the industry, she has placed hundreds of professionals across various domains.',
     email: 'ruchi.chaudhary@clannstaffing.com',
     linkedin: 'https://www.linkedin.com/in/ruchiechaudhary1',
