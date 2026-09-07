@@ -75,7 +75,8 @@ export default function TermsOfService() {
                 <h2 className="font-serif text-xl text-navy-800 mb-3">9. Contact Information</h2>
                 <p>If you have any questions about these Terms, please contact us:</p>
                 <p className="mt-2">Email: hr@clannstaffing.com<br />
-                Address: Gulshan Belina, Greater Noida, Uttar Pradesh, India<br />
+                Address: A-406, 4th Floor, Plot No.-3, Anthurium Office Spaces, Sector-73, Noida-201301
+Uttar Pradesh, India<br />
                 Phone: +91 879664 9501</p>
               </section>
             </div>

@@ -22,12 +22,12 @@ const team = [
     linkedin: 'https://www.linkedin.com/in/nishi-ahuja-7374b2407/',
   },
   {
-    name: 'Neha Sharma',
+    name: 'Ruchi Chaudhary',
     role: 'Director - Client Relations',
     image: '/team-neha.png',
-    bio: 'Neha leads our client relations team. With deep connections in the industry, she has placed hundreds of professionals across various domains.',
-    email: 'neha@clannstaffing.com',
-    linkedin: 'https://www.linkedin.com/in/neha-sharma111/',
+    bio: 'Ruchi leads our client relations team. With deep connections in the industry, she has placed hundreds of professionals across various domains.',
+    email: 'ruchi.chaudhary@clannstaffing.com',
+    linkedin: 'https://www.linkedin.com/in/ruchiechaudhary1',
   },
   {
     name: 'Satyam Srivastava',
