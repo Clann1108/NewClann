@@ -80,7 +80,7 @@ export default function Contact() {
                           <label className="block text-sm font-medium text-navy-700 mb-1">Phone Number</label>
                           <input
                             type="tel"
-                            placeholder="+91 879664 9501"
+                            placeholder="+91 98188 91820"
                             className="w-full px-4 py-3 rounded-lg border border-cream-200 text-navy-800 placeholder-navy-400 focus:outline-none focus:ring-2 focus:ring-amber"
                           />
                         </div>
@@ -140,7 +140,8 @@ export default function Contact() {
                       <div>
                         <p className="font-semibold text-navy-800">Head Office</p>
                         <p className="text-sm text-navy-500 mt-1">
-                          Gulshan Belina, Greater Noida<br />
+                          A-406, 4th Floor, Plot No.-3, Anthurium Office Spaces, <br />
+                          Sector-73, Noida-201301 <br />
                           Uttar Pradesh, India
                         </p>
                       </div>
@@ -157,8 +158,8 @@ export default function Contact() {
                         <a href="mailto:hr@clannstaffing.com" className="text-sm text-navy-500 mt-1 hover:text-amber transition-colors block">
                           hr@clannstaffing.com
                         </a>
-                        <a href="mailto:sales@clannstaffing.com" className="text-sm text-navy-500 hover:text-amber transition-colors block">
-                          sales@clannstaffing.com
+                        <a href="mailto:ruchi.chaudhary@clannstaffing.com" className="text-sm text-navy-500 hover:text-amber transition-colors block">
+                          ruchi.chaudhary@clannstaffing.com
                         </a>
                       </div>
                     </div>
@@ -171,11 +172,11 @@ export default function Contact() {
                       </div>
                       <div>
                         <p className="font-semibold text-navy-800">Call Us</p>
-                        <a href="tel:+918796649501" className="text-sm text-navy-500 mt-1 hover:text-amber transition-colors block">
-                          +91 87 9664 9501
+                        <a href="tel:+919818891820" className="text-sm text-navy-500 mt-1 hover:text-amber transition-colors block">
+                          +91 98188 91820
                         </a>
-                        <a href="tel:+919839440774" className="text-sm text-navy-500 hover:text-amber transition-colors block">
-                          +91 98 3944 0774
+                        <a href="tel:+919818655200" className="text-sm text-navy-500 hover:text-amber transition-colors block">
+                          +91 98 186 55200
                         </a>
                       </div>
                     </div>
