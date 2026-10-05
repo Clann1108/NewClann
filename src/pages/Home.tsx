@@ -89,7 +89,7 @@ export default function Home() {
       {/* Hero */}
       <HeroSection
         title="India's Leading Staffing Partner"
-        subtitle="Connecting Talent with Opportunity"
+        subtitle="Connecting Opportunity With Right Talent "
         description="We bridge the gap between exceptional talent and forward-thinking organizations across India. With 50,000+ active resumes and 1,000+ successful placements, your success is our mission."
         backgroundImage="/hero-home.jpg"
         primaryButton={{ label: 'EXPLORE JOBS', href: '/jobs' }}
