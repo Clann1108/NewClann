@@ -176,7 +176,7 @@ export default function Contact() {
                           +91 98188 91820
                         </a>
                         <a href="tel:+919818655200" className="text-sm text-navy-500 hover:text-amber transition-colors block">
-                          +91 98 186 55200
+                          +91 98186 55200
                         </a>
                       </div>
                     </div>
@@ -202,11 +202,11 @@ export default function Contact() {
                       Schedule a 15-minute discovery call with one of our staffing specialists. No obligations, just insights.
                     </p>
                     <a
-                      href="tel:+918796649501"
+                      href="tel:+919818891820"
                       className="inline-flex items-center gap-2 text-amber font-medium hover:underline"
                     >
                       <Phone size={16} />
-                      Call +91 87 9664 9501
+                      Call +91 981 88 91820
                     </a>
                   </div>
                 </div>
