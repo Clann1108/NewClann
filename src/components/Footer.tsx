@@ -73,7 +73,7 @@ export default function Footer() {
                 </a>
                 <br />
                 <a href="tel:+919818655200" className="text-sm text-navy-200 hover:text-amber transition-colors">
-                  +91 98 186 55200
+                  +91 98186 55200
                 </a>
               </div>
             </div>
