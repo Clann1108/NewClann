@@ -80,7 +80,8 @@ const testimonials = [
 
 const clients = [
   'Tectura Infotech', 'Atomic North', 'Avenoir', 'BLB Limited',
-  'Vikrant Industries', 'Neosoft', 'Appcrave', 'HIC', 'Sevenseas Cosmetics', 'Nexon Solution',
+  'Vikrant Industries', 'Neosoft', 'Appcrave', 'HIC', 'Sevenseas Cosmetics', 'Nexon Solution', 
+  'Akasa', 'Collabera', 'Partyin Infotech', 'Vska & Co.', 'Syntel', 'HCL', 'Tata Consultancy Services', 'Infosys', 'Wipro', 'Tech Mahindra', 'Capgemini', 'Cognizant', 'Larsen & Toubro Infotech', 'Mindtree', 'Mphasis', 'Hexaware Technologies', 'Persistent Systems', 'Zensar Technologies',
 ];
 
 export default function Home() {
