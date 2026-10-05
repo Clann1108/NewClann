@@ -206,7 +206,7 @@ export default function Contact() {
                       className="inline-flex items-center gap-2 text-amber font-medium hover:underline"
                     >
                       <Phone size={16} />
-                      Call +91 981 88 91820
+                      Call +91 98188 91820
                     </a>
                   </div>
                 </div>
